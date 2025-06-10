@@ -9,11 +9,10 @@
 </section>
 
 <style>
-
     .hero {
         padding: 5rem 2rem;
-        background-color: #ccff00;
-        color: #000;
+        background-color: #2c3e50;
+        color: #fff;
         font-family: 'Arial Black', sans-serif;
         text-align: center;
     }
@@ -30,7 +29,7 @@
 
     .cta-btn {
         background-color: #000;
-        color: #ccff00;
+        color: #fff;
         border: none;
         padding: 1rem 2rem;
         font-size: 1.2rem;
@@ -43,5 +42,4 @@
         background-color: #ff0055;
         color: #fff;
     }
-
 </style>

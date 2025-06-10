@@ -2,6 +2,7 @@
 
 </script>
 
+<!-- npm run dev -- --host -->
 <header>
     <nav class="navbar">
         <a href="/" class="logo">
@@ -23,12 +24,12 @@
 <slot /> 
 
 <footer class="footer">
-    <p>&copy; 2025 이과 커뮤니티. All rights reserved.</p>
+    <p>© 2025 이과 커뮤니티. All rights reserved.</p>
 </footer>
 
 <style>
     header {
-        background: #ccff00;
+        background: #2c3e50;
         padding: 0.5rem 2rem;
     }
 
@@ -62,7 +63,7 @@
 
     nav ul li a {
         text-decoration: none;
-        color: #000;
+        color: #fff;
         font-weight: bold;
         font-size: 1.2rem;
     }
@@ -70,7 +71,6 @@
     nav ul li a:hover {
         text-decoration: underline;
     }
-
 
     .footer {
         padding: 1.5rem 2rem;
@@ -82,4 +82,3 @@
         margin-top: 3rem;
     }
 </style>
-
