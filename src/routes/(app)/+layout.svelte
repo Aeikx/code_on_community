@@ -2,7 +2,7 @@
     // No additional script logic needed for this static layout
 </script>
 
-<header style="margin-top: 15px;">
+<header>
     <div class="search-section">
         <div class="search-bar">
             <input type="text" placeholder="통합검색" />
@@ -11,7 +11,7 @@
     </div>
     <nav class="navbar">
         <a href="/" class="logo">
-            <img src="/logo.png" alt="Logo" style="height: 40px;" />
+            <img src="/logo.png" alt="Logo" style="height: 40px; filter: invert(1);" />
             <p>이과 커뮤니티 Dell</p>
         </a>
         <ul>
@@ -30,10 +30,21 @@
 </footer>
 
 <style>
+
+    /* :global(html, body) {
+        margin: 0;
+        padding: 0;
+        overscroll-behavior: none;
+    }
+
+    :global(*) {
+        box-sizing: border-box;
+    } */
+
     :root {
         --primary-color: #2c3e50; /* Deep elegant blue */
-        --accent-color: #e74c3c; /* Vibrant coral accent */
-        --gold-accent: #d4af37; /* Luxurious gold */
+        --accent-color: #3b82f6; /* Vibrant coral accent */
+        --gold-accent: #3b82f6; /* Luxurious gold */
         --text-color: #ecf0f1; /* Soft off-white */
         --bg-color: #ffffff;
         --search-bg: #34495e; /* Darker sophisticated search bg */
@@ -45,6 +56,7 @@
     header {
         background: var(--primary-color);
         padding: 1rem 2rem;
+        padding-top: 1.5rem;
         position: sticky;
         top: 0;
         z-index: 100;
@@ -96,7 +108,7 @@
     }
 
     .search-bar button:hover {
-        background: #c0392b;
+        background: #2563eb;
     }
 
     .navbar {
@@ -169,5 +181,8 @@
         text-align: center;
         border-top: 2px solid var(--gold-accent);
         box-shadow: var(--shadow);
+        
     }
+
+    
 </style>

@@ -6,7 +6,7 @@
 <header>
     <nav class="navbar">
         <a href="/" class="logo">
-            <img src="logo.png" alt="" style="height: 40px; padding-bottom: 0.1rem;">
+            <img src="logo.png" alt="" style="height: 40px; padding-bottom: 0.1rem; filter: invert(1);">
         </a>
         <ul class="menu">
             <li><a href="/">홈</a></li>

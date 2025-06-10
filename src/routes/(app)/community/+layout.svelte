@@ -47,8 +47,9 @@
   display: flex;
   justify-content: center;
   padding-top: 20px;
+  padding-bottom: 30px;
   background-color: var(--background-color);
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   z-index: 200;
 }
@@ -95,6 +96,7 @@
 
 .sidebar a:hover {
   color: var(--link-hover-color);
+  font-weight: 500;
 }
 
 /* 본문 */
